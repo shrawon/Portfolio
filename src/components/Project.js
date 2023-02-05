@@ -14,12 +14,7 @@ const state = [
         heading: "EDGE ONLINE CLOTHING",
     
     },
-    {
-        id: 2,
-        icon: './image/WeatherApp.png',
-        heading: "WEATHER APP",
     
-    }
 ];
 
 function Project() {
