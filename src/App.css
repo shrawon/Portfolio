@@ -90,8 +90,18 @@ h4{
   justify-content: space-between;
 }
 
-.navbar_1-left-logo img{
+.navbar_1-left-logo img {
+  animation: logo-rotate 11s linear infinite;
   width: 100px;
+}
+
+@keyframes logo-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .navbar_right{
@@ -523,4 +533,12 @@ margin-bottom: 20px;
 }
 .projectinfo:hover .Overlay{
   opacity: 1;
+}
+
+/*------------Skills------------*/
+
+.SkillsMain{
+  text-align: center;
+  margin: 40px auto;
+  color:#3f396d ;
 }
