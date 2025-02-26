@@ -191,41 +191,12 @@ header{
   background-color: #6f34fe; 
 }
 
-.image{
-  width: 85vh;
-}
-
-@keyframes right-mover{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-50px);
-  }
-
-}
-
-@media only screen and (max-width: 768px){
-  .image{
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1500px){
-  .image{
-    width: 82.3vh;
-  }
-}
 @media only screen and (max-width: 1024px){
 
   .header{
     justify-content: flex-start;
     height: 100%;
     padding: 50px;
-  }
-  .image{
-    margin-top: 2PX;
-    width: 82.3vh;
   }
 }
 
