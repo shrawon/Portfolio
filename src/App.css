@@ -174,7 +174,7 @@ header{
 
 .btn-outline{
   background-color: #fca51f;
-  padding: 20px 58px 19px;
+  padding: 20px 58px 19px 20px;
   color: #fff;
   font-size: 20px;
   display: inline-block;
