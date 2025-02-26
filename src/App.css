@@ -195,10 +195,6 @@ header{
   width: 85vh;
 }
 
-.image{
-  animation: right-mover  1s ease-in-out infinite alternate;
-}
-
 @keyframes right-mover{
   0%{
     transform: translateX(0);
