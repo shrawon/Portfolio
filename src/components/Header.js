@@ -20,10 +20,7 @@ function Header () {
                                 </div>
                             </div>                       
                         </div>
-                    </div>
-                    <div className="col-6">
-                        <img src={Image} alt="" className="image" />
-                    </div>
+                    </div>                 
                 </div>
             </div>
         </header>
