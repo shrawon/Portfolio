@@ -95,15 +95,6 @@ h4{
   width: 100px;
 }
 
-@keyframes logo-rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .navbar_right{
   display: flex;
   list-style-type: none;
